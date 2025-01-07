@@ -1,0 +1,45 @@
+---
+import Button from './ui/Button.astro';
+---
+<style>
+  img {border-radius:50%;}
+</style>
+
+<section id="about" class="py-20">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-4xl font-bold mb-8">Sobre mim</h2>
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <img 
+          src="src/assets/avatar-mat.jpg" 
+          alt="Profile" 
+          class="rounded-lg shadow-lg"
+          width="400"
+          height="400"
+        />
+      </div>
+      <div>
+        <p class="text-lg mb-6">
+          Sou um designer centrado em pessoas, apaixonado por desafiar o status quo e criar soluções que tenham um real propósito.
+        </p>
+        <p class="text-lg mb-6">
+          Estou no setor de TI desde 2013 e transacionei por áreas como infraestrutura e desenvolvimento de software até chegar no UX
+          Design onde me realizo. Isso tudo me habilita a ter uma visão holística, carregada de empatia e conhecimento técnico para
+          integrar soluções eficientes.
+        </p>
+        <p class="text-lg mb-6">
+          Atualmente estou me especializando em métricas, concatenando com análise comportamental para criar soluções orientadas a dados 
+          nos projetos que executo.
+        </p>
+        <div class="flex gap-4">
+          <Button href="#contact">
+            Entrar em contato
+          </Button>
+          <Button href="#projects" variant="outline">
+            Ver projetos
+          </Button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
