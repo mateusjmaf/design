@@ -1,3 +1,18 @@
 .contact-card {
     background-color: transparent;;
 }
+
+.contact-container {
+    text-align: center;
+}
+
+.contact-button {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 2.5rem;
+}
+
+.contact-logo {
+    border-radius: 0.5rem;
+}
