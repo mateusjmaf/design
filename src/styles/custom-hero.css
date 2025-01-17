@@ -1,12 +1,10 @@
 
 .hero-cover {
-    background-image: url('/design/index-background.jpg');
+    background: linear-gradient(rgba(15, 15, 15, 0.7), rgba(15, 15, 15, 0.7)), 
+        url('/design/index-background.jpg');
+    background-attachment: fixed;    
     background-size: cover;
     background-position: center;
     position: relative;
-    color: #0f0f0f;
-}
-
-.hero-subtitle {
-    text-shadow: 0px 0px 21px #e5e7eb;
+    color: #ffffff;
 }

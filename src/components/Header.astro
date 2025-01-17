@@ -1,9 +1,16 @@
 ---
 import '../styles/glassmorphism.css';
+import '../styles/custom-header.css';
 ---
-<header class="fixed w-full z-50 bg-[#101010]/80 backdrop-blur-lg border-b border-[#f2f2f2]/10">
+<header class="fixed w-full z-50 bg-[#101010]/80 backdrop-blur-sm border-b border-[#f2f2f2]/10">
   <nav class="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
-    <a href="/design" class="text-2xl font-bold">Mat</a>
+    <a href="/design" class="text-2xl font-bold">
+      <img
+        role=button
+        src="/design/mat-logo.png"
+        alt="Home"
+        class="home-icon"
+        /></a>
     <ul class="flex gap-8">
       <li><a href="#about" class="hover:text-[#f2f2f2]/80 transition-colors">Sobre mim</a></li>
       <li><a href="#projects" class="hover:text-[#f2f2f2]/80 transition-colors">Projetos</a></li>
