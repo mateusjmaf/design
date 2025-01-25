@@ -12,7 +12,19 @@ import '../../styles/custom-project.css';
       </div>
 
       <h1 class="text-5xl font-bold mb-6">Form Optimizer</h1>
-      <p class="text-xl mb-8 text-[#f2f2f2]/80">📌 Under construction: Report release forecast for February, please wait.</p>
+      <p class="text-xl mb-4 text-[#f2f2f2]/80">📌 Under construction: Report release forecast for February, please come back later.</p>
+
+      <h2 class="text-3xl font-bold mb-4">Overview</h2>
+        <p class="mb-2">
+          Companies faced significant challenges with the complexity and lack of clarity in system interfaces, which resulted in dissatisfaction,
+          friction in usage, and negative impacts on user experience. Additionally, system administrators dealt with lengthy and risky processes,
+          making it difficult to efficiently manage routine customizations.
+        </p>
+        <p class="mb-8">
+          To address these challenges, I led a collaborative project based on human-centered approaches, involving in-depth research with stakeholders,
+          synthesis and ideation activities, as well as multiple iterations of prototypes and testing. The result was an innovative solution: a wizard-style
+          interface that simplifies tasks into just three intuitive steps, reducing complexity and fostering greater user confidence.
+        </p>
       
       <img 
         src="/design/projects-form-otimization.jpeg" 
@@ -20,7 +32,155 @@ import '../../styles/custom-project.css';
         class="w-full rounded-lg mb-12"
       />
       
-      </div>
+      <div class="prose prose-invert max-w-none">
+        <h2 class="text-3xl font-bold mb-4">Briefing</h2>
+        <p class="mb-2">
+          The system's modules are very broad, as they aim to meet the needs of businesses of various sizes,
+          making them complex in certain contexts and causing dissatisfaction with the products.
+        </p>
+        <p class="mb-2">
+          This complexity sometimes affects users' cognitive load and increases friction in usage, making it more
+          burdensome to fill out fields that truly matter. Additionally, it impacts the TCO (Total Cost of Ownership)
+          by affecting the user experience due to delays in the interface's loading time.
+        </p>
+        <p class="mb-8">
+          This situation also affects the system administrators, who manage the tool's usage within companies and are
+          tasked with revising these interfaces in a sustainable manner to maintain the ERP's proper functionality.
+        </p>
+
+
+        <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+        <h2 class="text-3xl font-bold mb-4">Process</h2>
+        <p class="mb-2">
+          Together with two other researchers, we started the project with a well-grounded research phase, seeking to raise
+          doubts (CSD Matrix) to be explored with key users and extract all expertise from the core team, which consisted of
+          six product specialists, most of whom had nearly three decades of experience in the field.
+        </p>
+        <p class="mb-2">
+          We conducted a total of 12 in-depth interviews to understand the needs and challenges system administrators face in
+          their daily operations—from receiving user requests to implementing the requested changes. We found that the process
+          was slow and risky to execute.
+        </p>
+        <p class="mb-2">
+          Afterward, we synthesized all research findings with the core team using the following sequence of activities: "Affinity Mapping,"
+          "Insight Generation," and "HMW (How Might We)." Through this, we determined that some needs could be addressed with the support of
+          intelligent technologies for impact analysis and a well-defined step-by-step process with clear metadata information.
+        </p>
+
+
+
+        <p class="mb-2">
+          The connections started to form. We then conducted a brainwriting session to ideate a solution based on the research synthesis, which
+          served as a guiding principle in prototyping a tool to assist users throughout the process. This tool created a mental model with clear
+          steps and information to support decision-making.
+        </p>
+        <p class="mb-2">
+          The key point here was the inclusion of functionality within these steps to analyze and scan unused fields to be executed in the client's
+          database. This needed to be made very clear. So, we built a low-fidelity prototype (Miro) and validated the concept with another group of
+          recruited users.
+        </p>
+        <p class="mb-2">
+          At this point, I fully took over the project, starting with the review and analysis of insights gained from the initial validation. I added
+          functionalities and workflows that were not previously considered, such as:
+          Including an editing flow – emphasizing the need for user freedom and control.
+        </p>
+        <ul class="list-disc pl-6 mb-4">
+          <li>Eliminating redundancy in customization creation steps – to simplify and make the process intuitive;</li>
+          <li>Adding additional information about routines – to facilitate decision-making;</li>
+          <li>Improving text and labels overall – to clarify the steps and required actions.</li>
+        </ul>
+        <p class="mb-2">
+          Once this phase was consolidated and the prototype had been iterated to medium fidelity (Axure RP), I decided to open the project to a design
+          critique session. I invited eight designers without project context biases to evaluate some usability-related technical issues.
+        </p>
+
+
+
+        <p class="mb-2">
+          After this brief refinement, I conducted usability tests with 13 key product users, focusing on the tool's usability. This new validation round
+          provided more insights for improving writing, as some actions were still unclear during the first use. Additionally, we added new information to
+          the data visualization to help users analyze and customize routines.
+        </p>
+        <p class="mb-2">
+          During this phase, I also conducted A/B tests during the usability tests to understand user preferences regarding the display mode of certain
+          information in the analysis step, questioning them about tasks within this context.
+        </p>
+
+
+
+        <p class="mb-2">
+          Notes: Although the model designed in the prototype worked, users preferred the second option, which offered even greater clarity of information.
+        </p>
+        <p class="mb-2">
+          After completing the usability phase, I added comments to the prototype with all highlights transcribed during the tests, making it easier for the
+          core team to analyze and prioritize each point. This provided valuable insights to improve the tool's functionality, making it more intuitive and
+          efficient, such as:
+        </p>
+        <ul class="list-disc pl-6 mb-4">
+          <li>Removing the search feature when no data is available – to avoid confusion and make the tool more intuitive.</li>
+          <li>Changing the location of the customization deletion action – to reduce clicks required for the action.</li>
+          <li>Adding new data to the analysis table – which users considered important for evaluating the impact of customization.</li>
+          <li>Improving the title of step 3 and the customization confirmation message text – to make the final customization step more cohesive.</li>
+        </ul>
+        <p class="mb-8">
+          Notes: Seven additional improvement opportunities were identified but were not included in this MVP of the tool. They were documented for the
+          development team's technical feasibility study.
+        </p>
+
+
+        <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+        <h2 class="text-3xl font-bold mb-4">Solution</h2>
+        <p class="mb-2">
+          Finally, I consolidated all the learnings gathered during the process into the project. I designed an interface based on a wizard that divides
+          the task into just three manageable and intuitive steps. This resulted in a significant reduction in configuration time due to a simplified and
+          intuitive workflow, promoting greater confidence through the use of technologies that enable prescriptive analysis and assist users in decision-making.
+        </p>
+        <p class="mb-2">
+          The tool's journey begins on a page for managing the system's routine customizations. Here, the user can later manipulate each customization with actions
+          like editing, deleting, or even disabling it:
+        </p>
+
+
+        <p class="mb-8">
+          Continuing the journey, the user can create a new customization or edit an existing one, following the same step-by-step process:
+        </p>
+        <ul class="list-decimal pl-6 mb-8">
+          <li>Description and Routine: The user selects the routine to modify and creates personal IDs for its management.</li>
+          <li>Field Analysis and Removal: The user executes the database analysis (if desired) and configures the customization.</li>
+          <li>Template Review: Finally, the user reviews all definitions to ensure correctness.</li>
+        </ul>
+
+
+        <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+        <h2 class="text-2xl font-bold mb-4">Key Results</h2>
+        <p class="mb-2">
+          At the end of the project, I analyzed the data obtained throughout the usability cycle, noting the following metrics:
+        </p>
+        <ul class="list-disc pl-6 mb-4">
+          <li>Success Rate: Achieved a total of 94.62% task effectiveness.</li>
+          <li>NPS: Reached 76.92%, with 11 of 13 users being promoters and an average rating of 9.4.</li>
+        </ul>
+        <p class="mb-2">
+          I also defined metrics using the HEART framework, but I will not address them here to maintain confidentiality regarding strategic aspects of the field.
+        </p>
+        <h3 class="text-xl font-bold mb-4">Client Testimonials</h3>
+        <p class="mb-2">
+          Some feedback from users at the end of the usability phase:
+        </p>
+        <ul class="list-disc pl-6 mb-4">
+          <li>"I see that it's very process-oriented and visually easy to understand what I'm doing. From an experience standpoint, this will improve a lot for me."</li>
+          <li>"Seeing the details is very nice; this information would already help me a lot."</li>
+          <li>"The ease of, for example, picking a routine and bringing all the fields from all the involved tables. Today, I would need to find out the tables involved by entering the routine."</li>
+        </ul>
+        <p class="mb-10">
+          Notes: In total, approximately 90 people were involved during the design thinking approach, including companies like Mitsubishi Electric, John Deere, and AMG Motors.
+        </p>
+        
+        <p class="text-sm mb-8 text-[#f2f2f2]/80">
+          <span class="font-bold">Total project duration:</span> January/23 - April/2023
+        </p>     
+      </div>      
+      
     </div>
   </main>
 </Layout>
