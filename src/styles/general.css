@@ -1,0 +1,20 @@
+.page-cover {
+    background-attachment: fixed !important;    
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative !important;
+    height: 40vh;
+}
+
+.title-cover {
+    color: #fefefe;
+}
+
+.subtitle-cover {
+    color: #cdcdcd;
+}
+
+.back-button {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
