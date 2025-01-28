@@ -65,81 +65,96 @@ import '../../styles/general.css';
           six product specialists, most of whom had nearly three decades of experience in the field.
         </p>
         <p class="mb-2">
-          We conducted a total of 12 in-depth interviews to understand the needs and challenges system administrators face in
-          their daily operations—from receiving user requests to implementing the requested changes. We found that the process
-          was slow and risky to execute.
+          We then conducted a total of 12 in-depth interviews to understand the needs and challenges that users and system administrators had in
+          their day-to-day lives when carrying out this type of operation, from the emergence of this demand to the implementation of the changes,
+          and we identified that it was a slow and risky process to carry out.
+        </p>
+        <p class="mb-6">
+          Thereafter, we synthesized all the research with the core team using the following sequence of dynamics: Affinity grouping, Insight generation
+          and HMW. In this way, we found that the most aggravating need was to analyze the impact of the change in metadata and a non-standardized process.
+          The dots began to be connected.
+        </p>
+        <img 
+          src="/design/projects/interface-optimizer/synthesize-inputs.png" 
+          alt="A board with a synthesizing inputs, with a lot of post its."
+          class="w-full rounded-md mb-6"
+        />
+        <p class="mb-2">
+          Then, we carried out the Brainwriting dynamic to generate ideas based on the synthesized material, which served as a basis for prototyping a
+          solution that would assist users throughout the customization process, creating a mental model with clear steps and information that would
+          contribute to decision-making.
         </p>
         <p class="mb-2">
-          Afterward, we synthesized all research findings with the core team using the following sequence of activities: Affinity Mapping,
-          Insight Generation, and HMW (How Might We). Through this, we determined that some needs could be addressed with the support of
-          intelligent technologies for impact analysis and a well-defined step-by-step process with clear metadata information.
+          The key point here was the inclusion of an intelligent functionality within these steps, which would perform a check for unused fields in
+          the customer base. This needed to be very clear.
         </p>
-
-        <p class="mb-8">
-          The dots began to be connected. We then conducted a brainwriting session to ideate a solution based on the research synthesis, which
-          served as a guiding principle in prototyping a tool to assist users throughout the process. This tool created a mental model with clear
-          steps and information to support decision-making.
+        <p class="mb-6">
+          With that, we built a low-end prototype <a href="https://miro.com/" target="_blank" class="font-medium text-blue-600 underline dark:text-teal-200
+          hover:no-underline">(Miro)</a> and validated the concept with another group of recruited users:
         </p>
         <img 
           src="/design/projects/interface-optimizer/prototype-low-fidelity.png" 
           alt="Otimização de Formulários"
-          class="w-full rounded-md mb-8"
+          class="w-full rounded-md mb-6"
         />
         <p class="mb-2">
-          The key point here was the inclusion of functionality within these steps to analyze and scan unused fields to be executed in the client's
-          database. This needed to be made very clear. So, we built a low-fidelity prototype (Miro) and validated the concept with another group of
-          recruited users.
-        </p>
-        <p class="mb-2">
-          At this point, I fully took over the project, starting with the review and analysis of insights gained from the initial validation. I added
-          functionalities and workflows that were not previously considered, such as:
+          From this moment on, I took over the management of the project, starting with the analysis and prioritization of the lessons learned in
+          the first validation. This made it possible to iterate the prototype with functionalities and flows not previously mapped, such as:
         </p>
         <ul class="list-disc pl-6 mb-4">
-          <li>Including an editing flow – emphasizing the need for user freedom and control;</li>
-          <li>Eliminating redundancy in customization creation steps – to simplify and make the process intuitive;</li>
-          <li>Adding additional information about routines – to facilitate decision-making;</li>
-          <li>Improving text and labels overall – to clarify the steps and required actions.</li>
+          <li>Inclusion of an editing workflow – as I emphasized the need for freedom and control for users;</li>
+          <li>Elimination of redundancy in steps when creating customization – to simplify and make the process more intuitive;</li>
+          <li>Need for additional information about routines – to facilitate decision-making;</li>
+          <li>Application of improvements to texts and labels in general – to provide more clarity on the necessary steps and actions.</li>
         </ul>
-        <p class="mb-8">
-          Once this phase was consolidated and the prototype had been iterated to medium fidelity (Axure RP), I decided to open the project to a design
-          critique session. I invited eight designers without project context biases to evaluate some usability-related technical issues.
+        <p class="mb-6">
+          With the approval of stakeholders, I consolidated this stage by iterating the prototype into a medium-fidelity version <a href="https://www.axure.com/"
+          target="_blank" class="font-medium text-blue-600 underline dark:text-teal-200 hover:no-underline">(Axure RP)</a> and invited around 8
+          designers from other product areas to carry out a Design Critique dynamic, in order to bring a perspective without the bias of context
+          for evaluating technical usability issues.
         </p>
         <img 
           src="/design/projects/interface-optimizer/prototype-mid-fidelity.png" 
-          alt="Otimização de Formulários"
-          class="w-full rounded-md mb-8"
+          alt="A sample of the mid fidelity prototype, showing the step 2 of the tool."
+          class="w-full rounded-md mb-6"
         />
         <p class="mb-2">
-          After this brief refinement, I conducted usability tests with 13 key product users, focusing on the tool's usability. This new validation round
-          provided more insights for improving writing, as some actions were still unclear during the first use. Additionally, we added new information to
-          the data visualization to help users analyze and customize routines.
+          After this brief refinement, I conducted usability tests with 13 key product users, now emphasizing on the tool's usability. This new validation round
+          provided more insights for improving writing, as some actions were still not clear enough on first access. Additionally, I also added new information
+          in the data visualization to help users analyze and customize their routines.
         </p>
-        <p class="mb-4">
-          During this phase, I also conducted A/B tests during the usability tests to understand user preferences regarding the display mode of certain
-          information in the analysis step, questioning them about tasks within this context.
+        <p class="mb-6">
+          During the usability test, I also applied A/B tests to understand user preferences regarding two structures designed to display information in the
+          analysis stage of the customization routine.
         </p>
-
-
+        <img 
+          src="/design/projects/interface-optimizer/ab-test.png" 
+          alt="The A/B test showed to user during de usability test, representing the metadata visualization."
+          class="w-full rounded-md mb-6"
+        />
         <blockquote class="p-4 mb-4 border-s-4 dark:border-gray-500 dark:bg-gray-800">
           <p>
-            Although the model designed in the prototype worked, users preferred the second option, which offered even greater clarity of information.
+            Although the designed structure worked, users ended up preferring the second option, which would provide an even better understanding of the
+            information due to a preconceived mental model of the system itself.
           </p>
         </blockquote>
         <p class="mb-2">
-          After completing the usability phase, I added comments to the prototype with all highlights transcribed during the tests, making it easier for the
-          core team to analyze and prioritize each point. This provided valuable insights to improve the tool's functionality, making it more intuitive and
-          efficient, such as:
+          To complete the usability cycle, I added comments to the prototype containing all the highlights from the transcriptions made during the usability
+          tests, and later facilitated a dynamic for analysis and prioritization with the main team on each of these points.
+        </p>
+        <p class="mb-2">
+          With this, we were able to obtain some more valuable insights to improve the tool's operation and make it more intuitive and functional, such as:
         </p>
         <ul class="list-disc pl-6 mb-4">
-          <li>Removing the search feature when no data is available – to avoid confusion and make the tool more intuitive.</li>
-          <li>Changing the location of the customization deletion action – to reduce clicks required for the action.</li>
-          <li>Adding new data to the analysis table – which users considered important for evaluating the impact of customization.</li>
-          <li>Improving the title of step 3 and the customization confirmation message text – to make the final customization step more cohesive.</li>
+          <li>Removed the search for customizations when they have not yet been created – to avoid confusion and make the tool more intuitive;</li>
+          <li>Changed the location of the customization deletion – to make it easier to access the action;</li>
+          <li>Added new information to the analysis table – to help assess the importance of the element;</li>
+          <li>Improved the title of the last step of the process and in the completion message – to make the final customization step more cohesive.</li>
         </ul>
         <blockquote class="p-4 mb-8 border-s-4 dark:border-gray-500 dark:bg-gray-800">
           <p>
-            Seven additional improvement opportunities were identified but were not included in this MVP of the tool. They were documented for the
-            development team's technical feasibility study.
+            Another 7 improvement opportunities were also identified that did not fit into this tool's MVP, but were documented for technical feasibility
+            study by the development team.
           </p>
         </blockquote>
 
