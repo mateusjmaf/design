@@ -41,7 +41,7 @@ import '../../styles/general.css';
 
       <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
 
-      <div class="prose prose-invert max-w-none">
+      <div id="challenge" class="prose prose-invert max-w-none">
         <h3 class="text-3xl font-bold mb-4">Challenge</h3>
         <p class="mb-4">
           Initially, we were given the mission of unifying all the experiences contained in the journeys of 4 mobile applications for the backoffice
@@ -58,6 +58,115 @@ import '../../styles/general.css';
           <li class="mb-2"><span class="font-bold">Notifications:</span> to inform users about the progress of their processes in the App;</li>
           <li class="mb-2"><span class="font-bold">Branch toggle:</span> to make this action easier and more intuitive, without the need to login again.</li>
         </ul>
+
+        <h3 class="text-3xl font-bold mb-2">Approach</h3>
+        <p class="mb-4">
+          This project was executed by me and two other designers, one being a Usability Specialist who managed the execution, and another third-party
+          analyst who carried out the hands-on with me in the steps that I will explain below.
+        </p>
+        <p class="mb-4">
+          We started the project by getting a general understanding of each of the applications by mapping the user journey in each workflow. At this stage,
+          we used a lot of internal documentation from the development teams and customer support to quickly put together a diagram, but it was still
+          difficult to understand the nuances of these flows.
+        </p>
+        <p class="mb-6">
+          So I suggested we do a <span class="font-bold">User Experience Mapping</span> using a technique I had used to structure two other successful ERP
+          tool redesign projects, similar to a sitemap but using the application interfaces themselves, making it easier to understand each workflow,
+          interactions and start to identify patterns and inconsistencies:
+        </p>
+        <div class="mb-8 grid md:grid-cols-2 lg:grid-cols-2 gap-4">
+          <img 
+            src="/design/projects/super-app/meu-protheus-mapping.jpg" 
+            alt="TO DO ! TO DO ! TO DO ! TO DO !"
+            class="w-full rounded-sm"
+          />
+          <img 
+            src="/design/projects/super-app/meus-ativos-fixos-mapping.jpg" 
+            alt="TO DO ! TO DO ! TO DO ! TO DO !"
+            class="w-full rounded-sm"
+          />
+          <img 
+            src="/design/projects/super-app/meus-contratos-mapping.jpg" 
+            alt="TO DO ! TO DO ! TO DO ! TO DO !"
+            class="w-full rounded-sm"
+          />
+          <img 
+            src="/design/projects/super-app/meu-desconto-inss-mapping.jpg" 
+            alt="TO DO ! TO DO ! TO DO ! TO DO !"
+            class="w-full rounded-sm"
+          />
+        </div>
+        <p class="mb-4">
+          Subsequently, we reviewed this mapping material with the project's core team, made up of technical and business people with know-how on each of the applications.
+        </p>
+        <p class="mb-4">
+          With this, we clarified each touchpoint of the workflows and understood how these applications relate to each other, making crucial discoveries of
+          functionalities that were even, ironically, considered an “easter egg” due to inconsistency in usability.
+        </p>
+        <p class="mb-4">
+          After analyzing the material in more depth with due understanding, we were able to identify the following patterns among the applications:
+        </p>
+        <ul class="list-disc pl-6 mb-8">
+          <li class="mb-2">Actions for requests with pending status;</li>
+          <li class="mb-2">History of requests with approved and rejected status;</li>
+          <li class="mb-2">Filters for requests.</li>
+        </ul>
+        <p class="mb-4">
+          Additionally, and perhaps most importantly, we also identified some inconsistencies between the apps’ experiences, such as:
+        </p>
+        <ul class="list-disc pl-6 mb-8">
+          <li class="mb-2">Different information architecture for each application;</li>
+          <li class="mb-2">Actionable elements, such as cards and buttons with different behaviors;</li>
+          <li class="mb-2">Divergent navigation pattern and interface;</li>
+          <li class="mb-2">Writing in general, especially on action labels using different terms for the same type of action.</li>
+        </ul>
+        <img 
+          src="/design/projects/super-app/cover.jpeg" 
+          alt="TO DO ! TO DO ! TO DO ! TO DO !"
+          class="w-full rounded-sm mb-6"
+        />
+        <blockquote class="p-4 mb-4 border-s-4 dark:border-gray-500 dark:bg-gray-800">
+          <p>
+            An <span class="font-bold">extremely important</span> point, was identifying that the “Meu INSS” app was disconnected from
+            the others and could cause confusion. We explained this to the project sponsor based on the mapping we carried out and
+            obtained permission to remove it from the scope.
+          </p>
+        </blockquote>
+        <p class="mb-4">
+          Based on these lessons learned, we began to design a new and unique mental model focused on unifying these experiences, but
+          also minimally maintaining the current functioning of the business rules of the other applications.
+        </p>
+        <p class="mb-6">
+          We structured this information architecture in a mental map without designing the interface itself, focusing on terms such
+          as navigation, actions and data listing, which made it possible to organize and iterate in a much more agile and efficient
+          way as the idea matured.
+        </p>
+        <img 
+          src="/design/projects/super-app/super-app-mapping.jpg" 
+          alt="TO DO ! TO DO ! TO DO ! TO DO !"
+          class="w-full rounded-sm mb-6"
+        />
+        <p class="mb-4">
+          Soon after consolidating this architecture, we began designing some interface models with a low-fidelity prototype.
+        </p>
+        <p class="mb-6">
+          This stage was crucial to seek solutions in a creative and collaborative way, involving both the usability specialist
+          to refine the proposals, and the core team itself in checkpoints to assess the technical feasibility of the solution.
+        </p>
+        <img 
+          src="/design/projects/super-app/cover.jpg" 
+          alt="TO DO ! TO DO ! TO DO ! TO DO !"
+          class="w-full rounded-sm mb-6"
+        />
+        <p class="mb-4">
+          To achieve this, we took into account some design assumptions for this new model to create the Non-logged-in Area,
+          Configuration Wizard Shortcut, Notifications, Branch Toggle, as detailed in the 
+          <a href="#challenge" class="links">Challenge</a> section.
+        </p>
+        <p class="mb-6">
+          After a few sessions, we converged these ideas and began designing the medium-fidelity prototype, adding the
+          appropriate interactions to carry out the usability test.
+        </p>
 
       </div>
 

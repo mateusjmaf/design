@@ -18,3 +18,14 @@
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
+
+.links {
+    color: #73d3e2;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.links:hover {
+    text-decoration-line: unset;
+    color: #6bc5d3;
+}
