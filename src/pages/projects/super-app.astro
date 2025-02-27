@@ -167,7 +167,7 @@ import '../../styles/general.css';
           In addition to the premises, we also brought additional concepts with insights obtained during the mapping of
           journeys for a better experience with the products unified in the new proposal:
         </p>
-        <ul class="list-disc pl-6 mb-6">
+        <ul class="list-disc pl-6 mb-4">
           <li class="mb-2"><span class="font-bold">Overview:</span> emphasized the number of Requests with pending status for each
             workflow to help manage these demands, which are the core of the application;</li>
           <li class="mb-2"><span class="font-bold">Information summary:</span> highlighted the main information in a consolidated
@@ -175,7 +175,7 @@ import '../../styles/general.css';
           <li class="mb-2"><span class="font-bold">Quick navigation:</span> in addition to a toolbar for instant access to Notifications
             and Branch Change with global access in the application, a quick-filter was implemented in the Information Summary.</li>
         </ul>
-        <p class="mb-6">
+        <p class="mb-4">
           After a few sessions, we converged these ideas and began designing the medium-fidelity prototype, adding the appropriate
           interactions to carry out the usability test.
         </p>
@@ -184,44 +184,6 @@ import '../../styles/general.css';
           architecture with only 3 navigation levels and the same Mental Model for each workflow, namely: 1) the Home Page, 2) the
           Context, 3) and Context details.
         </p>
-
-        <p class="mb-4">
-          Once the mid-fidelity prototype was developed, we began usability testing to efficiently and cost-effectively validate the
-          solution created.
-        </p>
-        <p class="mb-4">
-          To this end, we have developed a script with some real scenarios to clarify tasks related to the Contract Management,
-          Purchase Orders, Accounting and Asset Management workflows.
-        </p>
-        <p class="mb-6">
-          It is worth mentioning that for the Home Page, we designed some models that translated the summarized information into different
-          views, and we sought to understand which would work best for users during validations with an A/B “plus” preference test.
-        </p>
-
-        <blockquote class="p-4 mb-4 border-s-4 dark:border-gray-500 dark:bg-gray-800">
-          <p>
-            In total, there were 13 rounds of usability testing where we took notes of all the observations made by users, and then
-            consolidated everything for a later analysis together with the project's core team.    
-          </p>
-        </blockquote>
-        <p class="mb-4">
-          With the inputs generated from the test analysis, we were able to better understand some user behaviors and preferences, which
-          made it possible to iterate on the flows and make them even leaner and more simplified. Below is a highlight of these iterations:
-        </p>
-        <ul class="list-disc pl-6 mb-6">
-          <li class="mb-2"><span class="font-bold">Navigation:</span> the position of the application's back button has been changed, reusing
-            the users' mental model on mobile devices, expanding the space for content on the screen and making navigation more intuitive;</li>
-          <li class="mb-2"><span class="font-bold">Filters:</span> eliminated “quick filter” options on context pages as they conflicted with
-            the understanding of the Filter action, thus also making the interface cleaner;</li>
-          <li class="mb-2"><span class="font-bold">Filter parameters:</span> another necessary change in the filters was the marking of the
-            selected parameters on the screen, to show whether they were applied, which also allows for the quick removal of applied parameters
-            when viewing the data;</li>
-          <li class="mb-2"><span class="font-bold">Asset Flow:</span> in this journey, a pre-existing visualization mode of the original “Moviment
-            History” was also improved after realizing that this caused confusion, we relocated it to the 3rd navigation level (Context Details)
-            which would make it easier to understand and search for this information;</li>
-          <li class="mb-2"><span class="font-bold">Key Info:</span> new information has also been added to the data index listed after users
-            report their importance to help identify and locate them.</li>          
-        </ul>
         <div class="mb-8 grid md:grid-cols-4 lg:grid-cols-4 gap-4">
           <img 
             src="/design/projects/super-app/prototype-mid-fidelity-home.png" 
@@ -244,12 +206,63 @@ import '../../styles/general.css';
             class="w-full rounded-sm"
           />
         </div>
+        <p class="mb-4">
+          Once the mid-fidelity prototype was developed, we began usability testing to efficiently and cost-effectively validate the
+          solution created.
+        </p>
+        <p class="mb-4">
+          To this end, we have developed a script with some real scenarios to clarify tasks related to the Contract Management,
+          Purchase Orders, Accounting and Asset Management workflows.
+        </p>
+        <p class="mb-6">
+          It is worth mentioning that for the Home Page, we designed some models that translated the summarized information into different
+          views, and we sought to understand which would work best for users during validations with an A/B “plus” preference test.
+        </p>
+        <img 
+          src="/design/projects/super-app/home-page-test-ab-plus.jpg" 
+          alt="TO DO ! TO DO ! TO DO ! TO DO !"
+          class="w-full rounded-sm mb-6"
+        />
         <blockquote class="p-4 mb-4 border-s-4 dark:border-gray-500 dark:bg-gray-800">
+          <p>
+            In total, there were 13 rounds of usability testing where we took notes of all the observations made by users, and then
+            consolidated everything for a later analysis together with the project's core team.    
+          </p>
+        </blockquote>
+        <h4 class="text-xl font-bold mb-4">Learnings</h4>
+        <p class="mb-4">
+          With the inputs generated from the test analysis, we were able to better understand some user behaviors and preferences, which
+          made it possible to iterate on the flows and make them even leaner and more simplified. Below is a highlight of these iterations:
+        </p>
+        <ul class="list-disc pl-6 mb-4">
+          <li class="mb-2"><span class="font-bold">Navigation:</span> the position of the application's back button has been changed, reusing
+            the users' mental model on mobile devices, expanding the space for content on the screen and making navigation more intuitive;</li>
+          <li class="mb-2"><span class="font-bold">Filters:</span> eliminated “quick filter” options on context pages as they conflicted with
+            the understanding of the Filter action, thus also making the interface cleaner;</li>
+          <li class="mb-2"><span class="font-bold">Filter parameters:</span> another necessary change in the filters was the marking of the
+            selected parameters on the screen, to show whether they were applied, which also allows for the quick removal of applied parameters
+            when viewing the data;</li>
+          <li class="mb-2"><span class="font-bold">Asset Flow:</span> in this journey, a pre-existing visualization mode of the original “Moviment
+            History” was also improved after realizing that this caused confusion, we relocated it to the 3rd navigation level (Context Details)
+            which would make it easier to understand and search for this information;</li>
+          <li class="mb-2"><span class="font-bold">Key Info:</span> new information has also been added to the data index listed after users
+            report their importance to help identify and locate them.</li>          
+        </ul>
+        <blockquote class="p-4 mb-8 border-s-4 dark:border-gray-500 dark:bg-gray-800">
           <p>
             Other small UX Writing adjustments to the labels of some elements, such as buttons, were also adjusted according to the users'
             understanding of the business rule.
           </p>
         </blockquote>
+
+        <h3 class="text-3xl font-bold mb-4">Delivery</h3>
+        <p class="mb-4">
+          In the end, we consolidated all the learnings obtained during the Approach, iterating the solution with the points mentioned above
+          and then, refining it to a pixel perfect level, in a high fidelity prototype.
+        </p>
+        <p class="mb-4">
+
+        </p>
 
       </div>
 
