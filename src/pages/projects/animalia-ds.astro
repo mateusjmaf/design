@@ -1,0 +1,388 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Button from '../../components/ui/Button.astro';
+import '../../styles/general.css';
+---
+
+<Layout title="Animalia DS - Case Study">
+  <main class="pt-16 pb-16">
+    <section style="background: linear-gradient(rgba(15, 15, 15, 0.7), rgba(15, 15, 15, 0.7)), 
+      url('/design/projects/animalia-ds/00-cover.jpg')"
+      class="flex items-center justify-center page-cover">
+      <div class="text-center">
+        <h1 class="text-5xl font-bold mb-6">Animalia DS</h1>
+        <p class="text-xl mb-4 max-w-2xl mx-auto subtitle-cover">
+          Redesigning the Portal to promote the user adoption and engagement
+        </p>
+      </div>
+    </section>
+
+    <div class="max-w-4xl mx-auto px-6">
+      <div class="back-button">
+        <Button href="/design#projects" variant="outline">← Back</Button>
+      </div>
+
+      <h2 class="text-4xl font-bold mb-4">Overview</h2>
+      <p class="mb-4">
+        Animalia DS, TOTVS' Design System, had everything it needed to be an essential tool in the day-to-day work of designers and developers.
+        However, it faced a significant problem: low adoption and engagement below expectations.
+      </p>
+      <p class="mb-4">
+        Over time, it became clear that something needed to change, but where to start? That’s when we realized that the root of the problem
+        could be right at the front door: the portal’s home page, which was supposed to serve as a kind of “welcome” to the Design System, but
+        ended up driving away its main users.
+      </p>
+      <p class="mb-4">
+        I took the lead on this challenge to understand what was really happening. From there, we began a careful investigation, analyzing the
+        critical points and looking for answers that would help us reverse this scenario.
+      </p>
+      <p class="mb-4">
+        The result was a more intuitive portal, easy to navigate and with more accessible content, promoting a leap in user experience and
+        strengthening engagement with Animalia DS.
+      </p>
+      <p class="mb-4">
+        Check out the full case study below to understand how we got there!
+      </p>
+      <p class="text-sm mb-6 text-[#f2f2f2]/80">
+        <span class="font-bold">Deadline:</span> 1 and a half month
+      </p>
+
+      <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+
+      <div class="prose prose-invert max-w-none">
+        <h3 class="text-3xl font-bold mb-4">Challenge</h3>
+        <p class="mb-4">
+          Working in the area of ​​UX governance at TOTVS, we maintain and promote the company's DS (Design System), which unfortunately is incipient
+          in several areas that do not understand the value and benefits and therefore, end up not engaging.
+        </p>
+        <p class="mb-4">
+          These issues sometimes go against the consistency and standardization that a DS proposes, which is why we seek to identify aggravating
+          factors to solve in this context and promote it more and more.
+        </p>
+        <p class="mb-8">
+          One of the points identified was precisely the entry point, the Portal's home page, which should function as a landing page and provide
+          enough relevant information to generate conversion and direct users to the main resources already available.
+        </p>
+
+        <h3 class="text-3xl font-bold mb-2">Approach</h3>
+        <p class="mb-4">
+          One of the factors discovered was that the low adherence of Designers and Developers, the main target audiences, had difficulty searching
+          for library materials on the portal or even did not know where to find them, which generated frustration and consequently factors such as
+          low engagement.
+        </p>
+        <p class="mb-6">
+          There were some hypotheses on the subject due to some facts, but it was in September 2023 that the research team delved deeper into the
+          topic to map the issues that could be generating this low engagement and promotion of 
+          <a href="https://doc.animaliads.io/" target="_blank" class="links">Animalia DS<a> at TOTVS.
+        </p>
+        <img 
+          src="/design/projects/animalia-ds/01-home-page-older.png" 
+          alt="animalia ds's portal old version print screen."
+          class="w-full rounded-sm mb-6"
+        />
+        <p class="mb-4">
+          From there, I started the Usability stage by understanding the entire scope mapped out so far. There was a direction and now we needed to
+          follow the path to find out what could be done.
+        </p>
+        <p class="mb-6">
+          It is important to highlight  that this demand was assigned to another more junior designer on the team, who was having difficulty executing
+          the process. That is when I came in and took over the leadership of the project, planning activities within a schedule.
+        </p>
+        <img 
+          src="/design/projects/animalia-ds/02-redesign-planning.png" 
+          alt="A plan of the approach with each dynamic in a timeline on miro's board."
+          class="w-full rounded-sm mb-6"
+        />
+        <blockquote class="p-4 mb-6 border-s-4 dark:border-gray-500 dark:bg-gray-800">
+          <p>
+            However, the merit of implementing Delivery belongs entirely to this designer who worked with me in executing the project.
+          </p>
+        </blockquote>
+
+        <h4 class="text-2xl font-bold mb-4">Gathering Data</h4>
+        <p class="mb-4">
+          We began the project by doing a brief retrospective of the research to get an overview of the artifacts found in it. With this, we understood
+          that users were frustrated with the UI and had difficulty navigating and finding contents with that information architecture.
+        </p>
+        <p class="mb-4">
+          In this way, we extracted the telemetry data available to date to identify user behavior patterns, which made it possible to identify several
+          inconsistencies in the interface and raise hypotheses for solutions.
+        </p>
+        </p>
+        <p class="mb-4">
+          Some things that were quite clear from this telemetry data were both the areas of interest based on the <span class="font-bold">Heat Map</span>
+          (including UI elements that apparently contained interactions), and the level of interest in the content according to the 
+          <span class="font-bold">Scroll Map</span> of the page.
+        </p>
+        <img 
+          src="/design/projects/animalia-ds/03-hotjar-data.png" 
+          alt="A screen shot get in hotjar plataform with heat map and scroll map of the portal home page."
+          class="w-full rounded-sm mb-6"
+        />
+        <p class="mb-6">
+            Another important aspect we worked on was to highlight Animalia DS's Mission, Vision and Values. To achieve this, we worked on the UX Writing
+            of certain content already contained on other pages of the portal, emphasizing each of them in an objective and summarized way for the home page.
+        </p>
+        <img 
+          src="/design/projects/animalia-ds/04-old-version-analysis.jpg" 
+          alt="Portal analysis with annotations in each part of the old interface."
+          class="w-full rounded-sm mb-6"
+        />
+        <p class="mb-4">
+            Additionally, I considered reusing the inputs generated in a <span class="font-bold">Card Sorting</span> dynamic previously executed by another
+            team member to organize the Animalia DS material library in Figma.            
+        </p>
+        <p class="mb-6">
+            With this, I was able to better understand how people categorize certain design system topics, which weused as a basis for structuring the
+            <span class="font-bold">portal's information architecture</span>, including new navigation items to improve usability.
+        </p>
+        <img 
+          src="/design/projects/animalia-ds/05-card-sorting.jpg" 
+          alt="The results of card sorting dynamic agruped by user participants."
+          class="w-full rounded-sm mb-6"
+        />
+        <p class="mb-4">
+            We also carried out <span class="font-bold">benchmarks</span> in 6 design systems that are references in the market, seeking general insights for
+            the redesign of the Animalia DS portal.
+        </p>
+        <p class="mb-6">
+            Here we emphasize points such as how graphic elements are used and how information is categorized and distributed in the content hierarchy of
+            the respective portals.    
+        </p>
+        <img 
+          src="/design/projects/animalia-ds/06-benchmarking.png" 
+          alt="The results of the benchmarking from others six design systems."
+          class="w-full rounded-sm mb-6"
+        />
+
+        <h4 class="text-2xl font-bold mb-4">Crafting</h4>
+        <p class="mb-4">
+            After collecting all these inputs, we began to sketch out some <span class="font-bold">wireframes</span> with variations in the layout of
+            both informative and navigational content with shortcuts that led to the most relevant materials for users according to our hypotheses,
+            that would be tested later.
+        </p>
+        <p class="mb-6">
+            This method was developed in Miro, in a very dynamic and collaborative way with the tool's own wireframe elements, allowing us to elucidate
+            our ideas in a practical way.
+        </p>
+        <img 
+          src="/design/projects/animalia-ds/07-prototype-low-fidelity.png" 
+          alt="Some variations of the prototype in low fidelity."
+          class="w-full rounded-sm mb-6"
+        />
+        <blockquote class="p-4 mb-6 border-s-4 dark:border-gray-500 dark:bg-gray-800">
+          <p>
+            At this stage, we worked hard on <span class="font-bold">UX writing and content design</span> issues, not only to facilitate the
+            understanding of labels and clickable elements that were problematic issues in the UI, but also to generate a general understanding
+            of the design system for people.
+          </p>
+        </blockquote>
+
+        <p class="mb-4">
+            After we had advanced in the crafting of several variations, we invited some designers to participate in a <span class="font-bold">
+            Critique</span>, so that they could evaluate everything that could cause a usability problem, their preferences and so on.
+        </p>
+        <p class="mb-4">
+            We had very relevant participation at this time that made it possible to generate new inputs, which we used as a basis to select
+            what we had designed best in each variation to merge into a better and more refined proposal, now moving on to a 
+            <span class="font-bold">Medium Fidelity prototype</span>.
+        </p>
+        <p class="mb-6">
+            With this new proposal in hand, we also dedicated ourselves to adding some interactions and navigations to fictitious pages so
+            that it would be possible to carry out <span class="font-bold">validation</span>, and thus, to verify in more depth possible
+            inconsistencies and other needs of people not foreseen in the initial understanding.
+        </p>
+
+        <h4 class="text-2xl font-bold mb-4">Validation</h4>
+        <p class="mb-4">
+            After developing the prototype and checking its functionality, we continued preparations to carry out the <span class="font-bold">
+            Usability Tests</span>, writing a script with the main scenarios that needed to be tested, in addition to recruiting users.
+        </p>
+        <p class="mb-4">
+            We separated some tasks with objectives that could be measured – I will comment more on this in the <a href="#keyResults"
+            class="links">Key Results section</a> – considering the following scenarios:
+        </p>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Understanding what Animalia DS is;</li>
+            <li>Access to the UI Kit;</li>
+            <li>Access to the Contribution Guide;</li>
+            <li>Access to component documentation;</li>
+            <li>Locating communication channels;</li>
+            <li>Changing the portal theme.</li>
+        </ul>
+        <blockquote class="p-4 mb-6 border-s-4 dark:border-gray-500 dark:bg-gray-800">
+          <p>
+            At the time, we recruited 2 types of personas in this context of Animalia: 1) Designers and 2) Developers, with 6 people from
+            each profile where we applied the tests in a guided manner over two days.
+          </p>
+        </blockquote>
+        <p class="mb-6">
+            At the end of all test rounds, we started the <span class="font-bold">Analysis and Prioritization of Adjustments</span> to gather
+            learnings and iterate on the final delivery of scenarios that had worked, generated doubts or simply did not meet the requirements.
+        </p>
+        <img 
+          src="/design/projects/animalia-ds/08-prototype-mid-fidelity.png" 
+          alt="The prototype in the middle fidelity."
+          class="w-full rounded-sm mb-6"
+        />
+        <p class="mb-4">
+            This method consists of going through the transcripts of each test, highlighting points that we consider important in the users'
+            statements beyond the objectives of the tasks during the validation, which made it possible to identify the following improvements:
+        </p>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Fine-tuning terms used in texts and UI element labels – to adapt to broader user understanding;</li>
+            <li>Changing the way cards interact – removing buttons and applying mouseover effects to meet the mental model already predicted by users;</li>
+            <li>Inclusion of the <span class="font-bold">Styles</span> section in the navigation bar – to reduce friction when accessing, making navigation more fluid;</li>
+            <li>Inclusion of the <span class="font-bold">"Most visited"</span> area – to enable access to content visited most frequently on the portal;</li>
+            <li>Search box in menu sub-items – to make it easier to find content from specific contexts, such as <span class="font-bold">Components</span>.</li>
+        </ul>
+        <blockquote class="p-4 mb-6 border-s-4 dark:border-gray-500 dark:bg-gray-800">
+          <p>
+            During the process, we also mapped 7 other opportunities beyond the scope of this first wave of redesign, for future application
+            in new cycles for continuous improvement, such as new content pages and additional information in component documentation.
+          </p>
+        </blockquote>
+
+        <p class="mb-4">
+        <h3 class="text-3xl font-bold mb-2">Delivery</h3>
+          Then, after analyzing and prioritizing all insights gathered during the validation stage, we move on to the final delivery,
+          applying the improvements directly to a <span class="font-bold">High Fidelity Prototype</span> that serves as documentation
+          and a guide for development.
+        </p>
+        <p class="mb-4">
+          The result was a more practical Portal that was more adherent to the designers and developers who use it, highlighting the
+          main CTAs of Animalia DS according to the needs of these users discovered and improved throughout the process.
+        </p>
+        <p class="mb-4 font-bold">
+          First steps
+        </p>
+        <p class="mb-6">
+          The main CTA is highlighted in Hero, considering the initial steps for both profiles and being able to direct them to the
+          respective sections, whereas before it was necessary to navigate between the portal to enter such information.
+        </p>
+        <img 
+          src="/design/projects/animalia-ds/09-prototype-high-fidelity-hero.png" 
+          alt="Portal's prototype hero in hight fidelity showing first steps to users."
+          class="w-full rounded-sm mb-6"
+        />
+        <p class="mb-4 font-bold">
+          Shortcuts
+        </p>
+        <p class="mb-6">
+          Just below, we have included some shortcuts to access the most relevant Design System materials, as well as the pages most
+          accessed by users, in order to facilitate navigation and usability.
+        </p>
+        <img 
+          src="/design/projects/animalia-ds/10-prototype-high-fidelity-shortcuts.png" 
+          alt="Portal's prototype in hight fidelity showing shortcuts to main pages."
+          class="w-full rounded-sm mb-6"
+        />
+        <p class="mb-4 font-bold">
+          UX Writing
+        </p>
+        <p class="mb-6">
+          In addition, we wrote the texts contained in the portal to improve understanding as a whole, emphasizing the principles
+          and connecting them with the other integrated parts of the ecosystem, aiming to improve the perception of the value delivery
+          of Animalia DS to improve engagement.
+        </p>
+        <div class="mb-6 grid md:grid-cols-3 lg:grid-cols-3 gap-4">
+          <img 
+            src="/design/projects/animalia-ds/11-prototype-high-fidelity-principles-1.png" 
+            alt="Portal's prototype in hight fidelity highlighting the first principle."
+            class="w-full rounded-sm"
+          />
+          <img 
+            src="/design/projects/animalia-ds/11-prototype-high-fidelity-principles-2.png" 
+            alt="Portal's prototype in hight fidelity highlighting the second principle."
+            class="w-full rounded-sm"
+          />
+          <img 
+            src="/design/projects/animalia-ds/11-prototype-high-fidelity-principles-3.png" 
+            alt="Portal's prototype in hight fidelity highlighting the thirty principle."
+            class="w-full rounded-sm"
+          />
+        </div>
+        <p class="mb-4 font-bold">
+          Support
+        </p>
+        <p class="mb-6">
+          Last but not least, we reinforced some fundamental links and added communication channels for contact, something that generated
+          doubts among users and sometimes Churn, as there was no way to request support from the project support team.
+        </p>
+        <img 
+          src="/design/projects/animalia-ds/12-prototype-high-fidelity-footer.png" 
+          alt="Portal's prototype in hight fidelity highlighting the channels to contact and others links."
+          class="w-full rounded-sm mb-6"
+        />
+
+        <h4 class="text-2xl font-semibold mb-4 id="keyResults">Key Results</h4>
+        <p class="mb-4">
+          In total, we had <span class="font-bold">21 people</span> directly contributing their insights to the project. This way, we were
+          able to measure the results and the potential impact of the final delivery with some metrics obtained during the project, as well
+          as various qualitative feedbacks.
+        </p>
+        <p class="mb-6">
+          The <span class="font-bold">NPS</span> score obtained at the end of each round of usability testing reinforces the positive
+          perception of the work with only <span class="font-bold">Neutral</span> and <span class="font-bold">Promoter</span> evaluations.
+          Even though it was still evaluated at the Medium Fidelity stage, the satisfaction rate reached the Excellent level, with 
+          <span class="font-bold">55.56%</span>.
+        </p>
+        <img 
+          src="/design/projects/animalia-ds/13-nps.png" 
+          alt="A image like a rule showing de nps levels, marking the project score with a purple line."
+          class="w-full rounded-sm mb-6"
+        />
+        <p class="mb-6">
+          As for the <span class="font-bold">Success Rate</span>, which is obtained through the calculation of effectiveness in executing
+          the tasks applied in the Usability Test reached 100%, that is, all users were able to carry out the tasks directly and, no doubts.
+        </p>
+
+        <h4 class="text-2xl font-semibold mb-4">Customer Testimonials</h4>
+        <p class="mb-6">
+          As mentioned previously, there was also a lot of qualitative feedback from people who participated throughout the process:  
+        </p>        
+
+        <div class="mb-6 grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="bg-[#f2f2f2]/5 hover:bg-[#f2f2f2]/10 transition-colors duration-300 rounded-lg overflow-hidden">
+            <div class="p-4 text-center">
+              <blockquote class="text-x italic font-semibold text-gray-900 dark:text-white">
+                <p>“I really loved the simplicity, it’s easy to consult and find something on a daily basis, I also really liked the navigation.”</p>
+              </blockquote>
+            </div>
+          </div>
+
+          <div class="bg-[#f2f2f2]/5 hover:bg-[#f2f2f2]/10 transition-colors duration-300 rounded-lg overflow-hidden">
+            <div class="p-4 text-center">
+              <blockquote class="text-x italic font-semibold text-gray-900 dark:text-white">
+                <p>“Usability, this first step where I decide whether to go to design, dev or contribution, saves me a lot of energy.”</p>
+              </blockquote>
+            </div>
+          </div>
+
+          <div class="bg-[#f2f2f2]/5 hover:bg-[#f2f2f2]/10 transition-colors duration-300 rounded-lg overflow-hidden">
+            <div class="p-4 text-center">
+              <blockquote class="text-x italic font-semibold text-gray-900 dark:text-white">
+                <p>“The new home, giving more emphasis to the principles, also thought those cards were cool, thought it was a very interesting redesign, I really liked.”</p>
+              </blockquote>
+            </div>
+          </div>
+
+          <div class="bg-[#f2f2f2]/5 hover:bg-[#f2f2f2]/10 transition-colors duration-300 rounded-lg overflow-hidden">
+            <div class="p-4 text-center">
+              <blockquote class="text-x italic font-semibold text-gray-900 dark:text-white">
+                <p>“I liked not having the hero take up the entire screen and instead having the cards appear subtly below because you can see that there is more to it.”</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+        <p class="mb-4">
+            With this, we also concluded in a qualitative way the assertiveness of the proposed solution in relation to the main objective of the project.
+        </p>
+        <p class="mb-4">
+          Are you interested in my job? Contact me <a href="https://www.linkedin.com/in/mateusjmaf/" target="_blank" class="links">here</a>.
+        </p>
+      </div>      
+    </div>
+  </main>
+</Layout>
